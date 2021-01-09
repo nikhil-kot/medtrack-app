@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add_medication_to_list"
+    android:id="@+id/inBetween">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_schedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/green_300"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <EditText
+            android:id="@+id/name_of_person"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop='100dp'
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/enter_name_of_person"
+            />
+
+        <EditText
+            android:id="@+id/typeWeek"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_marginTop="150dp"
+            android:ems="10"
+            android:hint="@string/weekType"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/addScheduleButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:text="@string/add_new_schedule"
+            />
+
+
+
+    </RelativeLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

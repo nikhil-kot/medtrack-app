@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/CardView.Light"
+    tools:background="#FFFFFF">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer_layout_weekly"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.medtrackapp.MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/container_weekly"
+            android:orientation="vertical">
+
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabs_weekly"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:tabMode="scrollable" />
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/view_pager_weekly"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="50dp" />
+
+        </LinearLayout>
+
+        <ExpandableListView
+            android:id="@+id/navList_weekly"
+            android:layout_width="235dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|start"
+            android:background="@android:color/white"
+            android:divider="@color/dividerColor"
+            android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"/>
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/triweekly_card_4"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#cf1874"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+    </android.widget.Toolbar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/prescription_list_triweekly_4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/actionFloatingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight='50dp'
+        android:layout_marginBottom="50dp"
+        android:layout_gravity="end|bottom"
+        android:clickable="true"
+        android:focusable="true"
+        app:backgroundTint="@android:color/holo_blue_bright"
+        app:srcCompat="@drawable/baseline_add_black_18dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/scheduleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="300dp"
+        android:layout_marginBottom="50dp"
+        android:layout_gravity="end|bottom"
+        android:clickable="true"
+        android:focusable="true"
+        app:backgroundTint="@android:color/holo_red_light"
+        app:srcCompat="@drawable/baseline_calendar_today_black_18dp" />
+
+
+</FrameLayout>

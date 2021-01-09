@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add_medication_to_list"
+    android:id="@+id/inBetween">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#cf1874"
+            app:layout_constraintTop_toTopOf="parent"
+            >
+        </androidx.appcompat.widget.Toolbar>
+
+        <EditText
+            android:id="@+id/nameOfUserToRemove"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop='100dp'
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Enter the name of the user you want to remove"
+            />
+
+
+        <Button
+            android:id="@+id/removeUser"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginTop="200dp"
+            android:text="Remove User"
+            />
+
+    </RelativeLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
