@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MedTrack</string>
+    <string name="time_to_take_prescription">Time to Take Prescription</string>
+    <string name="quantity">quantity</string>
+    <string name="name">Name of Prescription</string>
+    <string name="enter_name_of_prescription">Enter name of prescription</string>
+    <string name="number_of_medications">number of medications in a given bottle</string>
+    <string name="enter_dosage">Enter dosage</string>
+    <string name="what_day_of_the_week_do_you_take_your_medication">What day of the week do you take your medication?</string>
+    <string name="add_new_prescription">Add new prescription</string>
+    <string name="time">Time to take medicine</string>
+    <string name="description">description</string>
+    <string name="Person">Owner</string>
+    <string name="add_person">Add Person</string>
+    <string name="calendar">Calendar</string>
+    <string name="sign_in_out">Sign In/Out</string>
+    <string name="sign_out">Sign out of your Account!</string>
+    <string name="weekType">Weekly, Biweekly, Triweekly</string>
+    <string name="enter_name_of_person">Enter the name of the person</string>
+    <string name="add_new_schedule">Add New Schedule</string>
+    <string name="user">User</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+
+</resources>
